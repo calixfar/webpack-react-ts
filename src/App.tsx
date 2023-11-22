@@ -1,5 +1,13 @@
+import './styles.css'
+import blackWeekend from './assets/black-weekend.png'
+import logo from './assets/icono-tarjetaoh.svg'
+
 export const App = () => {
   return (
-    <h1>React App</h1>
+    <div>
+      <h1>React App</h1>
+      <img src={blackWeekend} alt="as" />
+      <img src={logo} alt="as1" />
+    </div>
   )
 }
